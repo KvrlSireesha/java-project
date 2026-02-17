@@ -10,7 +10,7 @@ pipeline {
 
     tools {
         maven "Maven-3.9"   // Must match Jenkins Global Tool Configuration
-        jdk "JDK-17"
+     //   jdk "JDK-17"
     }
 
     stages {
