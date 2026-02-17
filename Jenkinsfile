@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label 'sireesha-docker-slave'
+    }
 
     environment {
         IMAGE_NAME = "sireesha-javaproject-image"
